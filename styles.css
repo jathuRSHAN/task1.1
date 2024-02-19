@@ -1,0 +1,61 @@
+
+  
+  /* Menu styles */
+  #menu {
+    width: 200px;
+    float: left;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  #menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #menu ul li {
+    margin-bottom: 10px;
+  }
+  
+  #menu ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  #menu ul li a:hover {
+    color: #007bff;
+  }
+  
+  /* Content styles */
+  #content {
+    margin-left: 220px;
+    padding: 20px;
+  }
+  
+  
+  .progress-bar {
+    background-color: #007bff; /* Progress bar background color */
+    color: #fff; /* Progress bar text color */
+  }
+  
+  .progress-bar-success {
+    background-color: #28a745; /* Success progress bar background color */
+  }
+  
+  .progress-bar-danger {
+    background-color: #dc3545; /* Danger progress bar background color */
+  }
+
+  .progress-bar::after {
+    content: attr(aria-valuenow) '%'; /* Display progress percentage */
+    position: absolute;
+    right: 10px; /* Align text to the right side */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%);
+  }
+  
+  /* Additional custom styles for form elements */
+  label {
+    font-weight: bold; /* Bold font for labels */
+  }

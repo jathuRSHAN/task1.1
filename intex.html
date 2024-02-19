@@ -1,0 +1,315 @@
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>test</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    #menu {
+      width: 250px;
+      float: right; 
+      margin-top: 30px ;
+      margin-right: 30px;  
+      background-color: aliceblue;
+      
+    }
+    #content {
+        
+      margin-left: 420px; /* Adjust this margin */
+    }
+  
+  </style>
+</head>
+<body>
+  <nav class="navbar bg-body-tertiary" style="background-color: rgb(42, 45, 49);  display: flex !important; justify-content: space-between;;">
+    <div class="container-fluid" >
+      <a class="navbar-brand" href="#">
+        <img src="https://pas-wordpress-media.s3.amazonaws.com/content/uploads/2016/02/CdxLMoHH-46x46.png" alt="Logo" width="24" height="20" class="d-inline-block align-text-top">
+
+        <a1 class="icon-link" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 24"><path fill="currentColor" d="M11 16h2v-4.2l1.6 1.6L16 12l-4-4l-4 4l1.4 1.4l1.6-1.6zm1 6q-2.075 0-3.9-.788t-3.175-2.137q-1.35-1.35-2.137-3.175T2 12q0-2.075.788-3.9t2.137-3.175q1.35-1.35 3.175-2.137T12 2q2.075 0 3.9.788t3.175 2.137q1.35 1.35 2.138 3.175T22 12q0 2.075-.788 3.9t-2.137 3.175q-1.35 1.35-3.175 2.138T12 22m0-2q3.35 0 5.675-2.325T20 12q0-3.35-2.325-5.675T12 4Q8.65 4 6.325 6.325T4 12q0 3.35 2.325 5.675T12 20m0-8"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M16 11V8h-3V6h3V3h2v3h3v2h-3v3zm3.95 10q-3.125 0-6.175-1.362t-5.55-3.863q-2.5-2.5-3.862-5.55T3 4.05q0-.45.3-.75t.75-.3H8.1q.35 0 .625.238t.325.562l.65 3.5q.05.4-.025.675T9.4 8.45L6.975 10.9q.5.925 1.187 1.787t1.513 1.663q.775.775 1.625 1.438T13.1 17l2.35-2.35q.225-.225.588-.337t.712-.063l3.45.7q.35.1.575.363T21 15.9v4.05q0 .45-.3.75t-.75.3"/></svg>
+         
+        </a1>
+      </a>
+    </div>
+  </nav>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color: #33475b;">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="contactsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contacts</a>
+              <div class="dropdown-menu" aria-labelledby="contactsDropdown">
+                <!-- Dropdown contents for Contacts -->
+                <a class="dropdown-item" href="#">Option 1</a>
+                <a class="dropdown-item" href="#">Option 2</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="conversationsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conversations</a>
+              <div class="dropdown-menu" aria-labelledby="conversationsDropdown">
+                <!-- Dropdown contents for Conversations -->
+                <a class="dropdown-item" href="#">Option 1</a>
+                <a class="dropdown-item" href="#">Option 2</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="marketingDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Marketing</a>
+              <div class="dropdown-menu" aria-labelledby="marketingDropdown">
+                <!-- Dropdown contents for Marketing -->
+                <a class="dropdown-item" href="#">Ads</a>
+                <a class="dropdown-item" href="#">Email</a>
+                <a class="dropdown-item" href="#">Landing Pages</a>
+                <a class="dropdown-item" href="#">Social</a>
+                <div class="dropdown dropright">
+                  <a class="dropdown-item dropdown-toggle" href="#" id="websiteDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Website</a>
+                  <div class="dropdown-menu" aria-labelledby="websiteDropdown">
+                    <!-- Submenu contents for Website -->
+                    <a class="dropdown-item" href="#">Website Pages</a>
+                    <a class="dropdown-item" href="#">Blog</a>
+                  </div>
+                </div>
+                <a class="dropdown-item" href="#">SEO</a>
+                <a class="dropdown-item" href="#">Campaigns</a>
+                <a class="dropdown-item" href="#">Design Tools</a>
+                <a class="dropdown-item" href="#">Forms</a>
+              </div>
+            </li>
+            
+            <!-- Add similar dropdown items for Sales, Service, Automation, and Reporting -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="SalesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sales</a>
+              <div class="dropdown-menu" aria-labelledby="SalesDropdown">
+                <!-- Dropdown contents for Sales -->
+                <a class="dropdown-item" href="#">Option 1</a>
+                <a class="dropdown-item" href="#">Option 2</a>
+              </div>
+            </li><li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="ServiceDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Service</a>
+              <div class="dropdown-menu" aria-labelledby="ServiceDropdown">
+                <!-- Dropdown contents for Service -->
+                <a class="dropdown-item" href="#">Option 1</a>
+                <a class="dropdown-item" href="#">Option 2</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="AutomationDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Automation</a>
+              <div class="dropdown-menu" aria-labelledby="AutomationDropdown">
+                <!-- Dropdown contents for Automation -->
+                <a class="dropdown-item" href="#">Option 1</a>
+                <a class="dropdown-item" href="#">Option 2</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="ReportingDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Reporting</a>
+              <div class="dropdown-menu" aria-labelledby="ReportingDropdown">
+                <!-- Dropdown contents for Reporting -->
+                <a class="dropdown-item" href="#">Option 1</a>
+                <a class="dropdown-item" href="#">Option 2</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <div class="input-group">
+              <input class="form-control" type="search" placeholder="Search HubSpot" aria-label="Search">
+              <div class="input-group-append">
+                <span class="input-group-text"><i class="bi bi-search"></i></span>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+    <div class="container-fluid" style="background-color: rgb(245, 248, 250);">
+
+
+      <div class="container text-center">
+        <div class="row">
+         
+          <div class="col-2">
+            <div class="text-left">
+            <div id="menu">
+              <ul>
+                <li><a href="#" onclick="showContent('userGuides')">User Guides</a></li>
+                <li><a href="#" onclick="showContent('marketingGuide')">Marketing Guide</a></li>
+                <li><a href="#" onclick="showContent('salesGuide')">Sales Guide</a></li>
+                <li><a href="#" onclick="showContent('customerServiceGuide')">Customer Service Guide</a></li>
+                <li><a href="#" onclick="showContent('webContentGuide')">Web Content Guide</a></li>
+                
+              </ul>
+            </div>
+          </div>
+          </div>
+          <div class="col-10">
+            
+              <div class="container text-center">
+                <div class="row row-cols-1">
+
+                  <div class="col">
+                    <div class="card" style="width: 50rem; margin-top: 30px ;">
+                      <div class="card-body">
+                        <div class="text-left">
+                        <h5 class="card-title">Your Web Content tools progress</h5>
+                      </div>
+                        <div class="container text-center">
+
+                          <div class="row">
+                            <div class="col-2" style="background-color: blue;">
+                             
+                            </div>
+                            <div class="col-9" style="background-color: azure; float: left;">
+                              
+                            </div>
+                            <div class="col-1">
+                              18%
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="card" style="width: 50rem; margin-top: 30px ;background-color: rgb(245, 248, 250); ">
+                      <div class="card-body">
+
+                        <div class="float-left" >
+                          <img src="https://static.hsappstatic.net/ui-images/static-2.626/optimized/bolt.svg" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
+                        </div>
+
+                        <div class="text-left" >
+                        <h3>Recommended: All you need to get started</h3>
+                        </div>
+
+                      <div>
+
+                      <div class="card-body">
+                        <div class="float-left" >
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 512 512"><path fill="none" stroke="#c0c0c0" stroke-miterlimit="10" stroke-width="32" d="M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192s192-86 192-192Z"/></svg>
+                        </div>
+
+                        <div class="text-left" >
+                        <h5> Set up the basics</h5>
+                       </div>
+                       
+                        <h6>Import your contacts, invite teammates, and understand HubSpot properties</h6>
+                        
+                        </div>
+                        <div class="row">
+                          <div class="col-1" style="background-color: blue;"></div>
+                          <div class="col-4" style="background-color: azure;"> </div>
+                          <div class="col-1">
+                            18%
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                  <div class="col">
+                    <div class="card" style="width: 50rem; margin-top: 30px ;background-color: rgb(245, 248, 250);">
+                      <div class="card-body">
+                        <h5 class="card-title">Recommended: All you need to get started</h5>
+                        <p class="card-text">Set up the basics</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 50rem; margin-top: 30px ;background-color: rgb(245, 248, 250);">
+                      <div class="card-body">
+                        <h5 class="card-title">Recommended: All you need to get started</h5>
+                        <p class="card-text">Set up the basics</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                 
+                </div>
+              </div>
+             
+
+
+              <!-- <div id="defaultContent">
+                <div class="container mt-5">
+                  <h2>Recommended: All you need to get started</h2>
+                  <div class="form-group">
+                    <label for="basicSetup">Set up the basics</label>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                    </div>
+                    <p>Import your contacts, invite teammates, and understand HubSpot properties          About 14 minutes left</p>
+                    
+                  </div>
+            
+                  <div class="form-group">
+                    <label for="websiteSetup">Build and manage your website with CMS Hub</label>
+                    <p>Take ownership of your website - About 25 minutes</p>
+                    <p>Build and customize your site with powerful content management tools</p>
+                  </div>
+            
+                  <div class="form-group">
+                    <label for="growAudience">Grow your audience with search engine-friendly content</label>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+                    </div>
+                    <p>Publish your site and attract visitors with your content - About 26 minutes</p>
+                  </div>
+                </div> -->
+              </div>
+          </div>
+        </div>
+      
+
+      
+        <!-- Dynamic content
+        <div id="userGuidesContent" style="display: none;">
+          <p>User Guides Content</p>
+        </div>
+        <div id="marketingGuideContent" style="display: none;">
+          <p>Marketing Guide Content</p>
+        </div>
+        <div id="salesGuideContent" style="display: none;">
+          <p>Sales Guide Content</p>
+        </div>
+        <div id="customerServiceGuideContent" style="display: none;">
+          <p>Customer Service Guide Content</p>
+        </div>
+        <div id="webContentGuideContent" style="display: none;">
+          
+          <div class="container mt-5">
+            
+          </div>
+        </div> -->
+      </div>
+    </div>
+      <script>
+        function showContent(contentId) {
+          // Hide all content sections
+          document.querySelectorAll('#content > div').forEach(function(el) {
+            el.style.display = 'none';
+          });
+          // Show the selected content section
+          document.getElementById(contentId + 'Content').style.display = 'block';
+        }
+      </script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
